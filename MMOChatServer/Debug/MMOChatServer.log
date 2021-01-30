@@ -1,0 +1,41 @@
+﻿  CNetServer.cpp
+C:\Users\박진수\Desktop\Lib\CNetServer\CNetServer.cpp(359,6): warning C4101: 'enqueueSize' :참조되지 않은 지역 변수입니다.
+C:\Users\박진수\Desktop\Lib\CNetServer\CNetServer.cpp(427,1): warning C4010: 한 줄로 된 주석에 줄 연속 문자가 있습니다.
+C:\Users\박진수\Desktop\Lib\CNetServer\CNetServer.cpp(428,1): warning C4010: 한 줄로 된 주석에 줄 연속 문자가 있습니다.
+C:\Users\박진수\Desktop\Lib\CNetServer\CNetServer.cpp(429,1): warning C4010: 한 줄로 된 주석에 줄 연속 문자가 있습니다.
+C:\Users\박진수\Desktop\Lib\CNetServer\CNetServer.cpp(430,1): warning C4010: 한 줄로 된 주석에 줄 연속 문자가 있습니다.
+C:\Users\박진수\Desktop\Lib\CNetServer\CNetServer.cpp(431,1): warning C4010: 한 줄로 된 주석에 줄 연속 문자가 있습니다.
+C:\Users\박진수\Desktop\Lib\CNetServer\CNetServer.cpp(432,1): warning C4010: 한 줄로 된 주석에 줄 연속 문자가 있습니다.
+C:\Users\박진수\Desktop\Lib\CNetServer\CNetServer.cpp(433,1): warning C4010: 한 줄로 된 주석에 줄 연속 문자가 있습니다.
+  CSerializationBuffer.cpp
+C:\Users\박진수\Desktop\Lib\CMemoryPoolTLS\CMemoryPool.h(105): error C3861: 'InterlockedCompareExchange128': 식별자를 찾을 수 없습니다.
+C:\Users\박진수\Desktop\Lib\CMemoryPoolTLS\CMemoryPool.h(105): message : 'InterlockedCompareExchange128': 함수가 템플릿 선언 컨텍스트에 선언되지 않았으며 인스턴스화 컨텍스트의 인수 종속성 조회를 통해서만 찾을 수 있습니다.
+C:\Users\박진수\Desktop\Lib\CMemoryPoolTLS\CMemoryPool.h(75): message : 클래스 템플릿 멤버 함수 'DATA *CMemoryPool<DATA>::Alloc(void)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              DATA=CMemoryPoolTLS<CSerializationBuffer>::Chunk
+          ]
+C:\Users\박진수\Desktop\Lib\CMemoryPoolTLS\CMemoryPoolTLS.h(43): message : 컴파일되는 함수 템플릿 인스턴스화 'DATA *CMemoryPool<DATA>::Alloc(void)'에 대한 참조를 확인하세요.
+          with
+          [
+              DATA=CMemoryPoolTLS<CSerializationBuffer>::Chunk
+          ]
+C:\Users\박진수\Desktop\Lib\CMemoryPoolTLS\CMemoryPoolTLS.h(10): message : 컴파일되는 클래스 템플릿 인스턴스화 'CMemoryPool<CMemoryPoolTLS<CSerializationBuffer>::Chunk>'에 대한 참조를 확인하세요.
+C:\Users\박진수\Desktop\Lib\CSerializationBuffer\CSerializationBuffer.cpp(4): message : 컴파일되는 클래스 템플릿 인스턴스화 'CMemoryPoolTLS<CSerializationBuffer>'에 대한 참조를 확인하세요.
+  main.cpp
+C:\Users\박진수\Desktop\Lib\CLockFreeQueue\LockFreeQueue.h(170): error C3861: 'InterlockedCompareExchange128': 식별자를 찾을 수 없습니다.
+C:\Users\박진수\Desktop\Lib\CLockFreeQueue\LockFreeQueue.h(170): message : 'InterlockedCompareExchange128': 함수가 템플릿 선언 컨텍스트에 선언되지 않았으며 인스턴스화 컨텍스트의 인수 종속성 조회를 통해서만 찾을 수 있습니다.
+C:\Users\박진수\Desktop\Lib\CLockFreeQueue\LockFreeQueue.h(131): message : 클래스 템플릿 멤버 함수 'bool LockFreeQueue<CJob *>::Pop(DATA *)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              DATA=CJob *
+          ]
+C:\Users\박진수\Desktop\이제부터라도 정리잘하자\MMOChatServer\MMOChatServer\MMOChatServer.h(104): message : 컴파일되는 함수 템플릿 인스턴스화 'bool LockFreeQueue<CJob *>::Pop(DATA *)'에 대한 참조를 확인하세요.
+          with
+          [
+              DATA=CJob *
+          ]
+C:\Users\박진수\Desktop\이제부터라도 정리잘하자\MMOChatServer\MMOChatServer\MMOChatServer.h(356): message : 컴파일되는 클래스 템플릿 인스턴스화 'LockFreeQueue<CJob *>'에 대한 참조를 확인하세요.
+C:\Users\박진수\Desktop\Lib\CLockFreeQueue\LockFreeQueue.h(179): error C3861: 'InterlockedCompareExchange128': 식별자를 찾을 수 없습니다.
+C:\Users\박진수\Desktop\Lib\CLockFreeQueue\LockFreeQueue.h(179): message : 'InterlockedCompareExchange128': 함수가 템플릿 선언 컨텍스트에 선언되지 않았으며 인스턴스화 컨텍스트의 인수 종속성 조회를 통해서만 찾을 수 있습니다.
+  코드를 생성하고 있습니다...

@@ -1,0 +1,13 @@
+﻿  main.cpp
+C:\Users\박진수\Desktop\이제부터라도 정리잘하자\MMOChatServer\MMOChatServer\MMOChatServer.h(134,11): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'unsigned __int64'입니다.
+C:\Users\박진수\Desktop\이제부터라도 정리잘하자\MMOChatServer\MMOChatServer\MMOChatServer.h(134,11): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\박진수\Desktop\이제부터라도 정리잘하자\MMOChatServer\MMOChatServer\main.cpp(21,11): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'UINT64'입니다.
+C:\Users\박진수\Desktop\이제부터라도 정리잘하자\MMOChatServer\MMOChatServer\main.cpp(21,11): message : 서식 문자열에서 '%lld'을(를) 사용하는 것이 좋습니다.
+C:\Users\박진수\Desktop\이제부터라도 정리잘하자\MMOChatServer\MMOChatServer\main.cpp(21,11): message : 서식 문자열에서 '%Id'을(를) 사용하는 것이 좋습니다.
+C:\Users\박진수\Desktop\이제부터라도 정리잘하자\MMOChatServer\MMOChatServer\main.cpp(21,11): message : 서식 문자열에서 '%I64d'을(를) 사용하는 것이 좋습니다.
+  코드를 생성하고 있습니다.
+  1 of 398 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  MMOChatServer.vcxproj -> C:\Users\박진수\Desktop\이제부터라도 정리잘하자\MMOChatServer\x64\Release\MMOChatServer.exe
