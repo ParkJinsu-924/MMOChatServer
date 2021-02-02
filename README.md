@@ -1,4 +1,3 @@
 #MMO게임기반 채팅서버
-
-> MMO게임 기반이므로 섹터가 존재
-> 사용 라이브러리 : NetServer, RingBuffer, SerializationBuffer, LockFreeStack, LockFreeQueue, MemoryPoolTlsVersion, CrashDump
+* 해당 서버는 CNetServer라이브러리가 사용되었습니다.
+* MMO게임 기반, 섹터 개념이 존재합니다.
